@@ -162,7 +162,7 @@ const Profile = () => {
             }
             {currentUser && user?.podcasts.length === 0 &&
                 <FilterContainer box={true} >
-                    <Topic>Your Uploads
+                    <Topic>Your Upload
                     </Topic>
                     <Container>
                         <ButtonContainer>Upload</ButtonContainer>
